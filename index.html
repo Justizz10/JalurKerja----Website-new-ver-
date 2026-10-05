@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jalurkerja — Cari lowongan yang relevan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap nav-inner">
+    <a href="#" class="brand">
+      <img src="logo.png" alt="Jalurkerja Logo">
+      <span>Jalurkerja</span>
+    </a>
+    <div class="links">
+      <a href="#lowongan">Lowongan</a>
+      <a href="#kategori">Kategori</a>
+      <a href="#cara-kerja">Cara kerja</a>
+      <a href="#manfaat">Manfaat</a>
+    </div>
+    <div class="nav-r">
+      <a class="btn btn-s" href="#">Masuk</a>
+      <a class="btn btn-p" href="#lowongan">Cari lowongan</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero"><div class="wrap">
+  <h1>Temukan pekerjaan yang pas untukmu</h1>
+  <p>Ribuan lowongan dari perusahaan terverifikasi di seluruh Indonesia. Cari, bandingkan, dan lamar dalam beberapa menit.</p>
+
+    <form class="search" id="searchForm" role="search">
+      <input id="keyword" type="search" placeholder="Posisi, skill, atau kata kunci" aria-label="Posisi, skill, atau kata kunci">
+      <select id="location" aria-label="Lokasi">
+        <option value="">Semua lokasi</option>
+        <option>Jakarta</option>
+        <option>Bandung</option>
+        <option>Bekasi</option>
+        <option>Semarang</option>
+        <option>Remote</option>
+      </select>
+      <button class="btn btn-p btn-lg" type="submit">Cari lowongan</button>
+    </form>
+  </div>
+</header>
+
+<section id="lowongan">
+  <div class="wrap">
+      <div class="head">
+          <div>
+              <div class="eyebrow">LOWONGAN</div>
+              <h2>Lowongan pilihan</h2>
+              <p class="lead">
+                  Temukan berbagai peluang kerja yang sesuai dengan
+                  posisi, pengalaman, dan bidang yang kamu minati.
+              </p>
+          </div>
+          <div class="result-count">
+              6 lowongan tersedia
+          </div>
+      </div>
+      <div class="filterbar">
+          <label>
+              Pengalaman
+              <select>
+                  <option>Semua pengalaman</option>
+                  <option>Fresh graduate</option>
+                  <option>1–3 tahun</option>
+                  <option>3–5 tahun</option>
+                  <option>5+ tahun</option>
+              </select>
+          </label>
+          <label>
+              Tipe pekerjaan
+              <select>
+                  <option>Semua tipe</option>
+                  <option>Penuh waktu</option>
+                  <option>Paruh waktu</option>
+                  <option>Freelance</option>
+              </select>
+          </label>
+          <button type="button" class="text-btn">
+              Reset filter
+          </button>
+      </div>
+      <div class="job-list">
+          <!-- Job 1 -->
+          <a class="job" href="#job1">
+              <div class="job-main">
+                  <div class="av">D</div>
+                  <div>
+                      <div class="co">
+                          DataKarya
+                      </div>
+                      <h3>
+                          Business Analyst
+                      </h3>
+                      <div class="meta">
+                          Semarang · Penuh waktu · Fresh graduate
+                      </div>
+                  </div>
+              </div>
+              <div class="job-mid">
+                  <div class="sal">
+                      Rp 8–13 jt / bulan
+                  </div>
+                  <div class="tags">
+                      <span class="tag">SQL</span>
+                      <span class="tag">Excel</span>
+                  </div>
+              </div>
+          </a>
+
+          <!-- Job 2 -->
+          <a class="job" href="#job2">
+              <div class="job-main">
+                  <div class="av">N</div>
+                  <div>
+                      <div class="co">
+                          Nusa Teknologi
+                      </div>
+                      <h3>
+                          Product Analyst
+                      </h3>
+                      <div class="meta">
+                          Jakarta · Penuh waktu · 1–3 tahun
+                      </div>
+                  </div>
+              </div>
+              <div class="job-mid">
+                  <div class="sal">
+                      Rp 10–16 jt / bulan
+                  </div>
+                  <div class="tags">
+                      <span class="tag">Analytics</span>
+                      <span class="tag">SQL</span>
+                  </div>
+              </div>
+          </a>
+
+          <!-- Job 3 -->
+          <a class="job" href="#job3">
+              <div class="job-main">
+                  <div class="av">P</div>
+                  <div>
+                      <div class="co">
+                          Proyek Nusantara
+                      </div>
+                      <h3>
+                          Project Coordinator
+                      </h3>
+                      <div class="meta">
+                          Bekasi · Penuh waktu · 3–5 tahun
+                      </div>
+                  </div>
+              </div>
+              <div class="job-mid">
+                  <div class="sal">
+                      Rp 9–14 jt / bulan
+                  </div>
+                  <div class="tags">
+                      <span class="tag">Koordinasi</span>
+                      <span class="tag">Planning</span>
+                  </div>
+              </div>
+          </a>
+
+          <!-- Job 4 -->
+          <a class="job" href="#job4">
+              <div class="job-main">
+                  <div class="av">A</div>
+                  <div>
+                      <div class="co">
+                          Arta Sejahtera
+                      </div>
+                      <h3>
+                          Project Operations Associate
+                      </h3>
+                      <div class="meta">
+                          Jakarta · Penuh waktu · 3–5 tahun
+                      </div>
+                  </div>
+              </div>
+              <div class="job-mid">
+                  <div class="sal">
+                      Rp 8–12 jt / bulan
+                  </div>
+                  <div class="tags">
+                      <span class="tag">Reporting</span>
+                      <span class="tag">Planning</span>
+                  </div>
+              </div>
+          </a>
+
+          <!-- Job 5 -->
+          <a class="job" href="#job5">
+              <div class="job-main">
+                  <div class="av">K</div>
+                  <div>
+                      <div class="co">
+                          Kreasi Visual
+                      </div>
+                      <h3>
+                          Visual Designer
+                      </h3>
+                      <div class="meta">
+                          Bandung · Penuh waktu · 1–3 tahun
+                      </div>
+                  </div>
+              </div>
+              <div class="job-mid">
+                  <div class="sal">
+                      Rp 8–13 jt / bulan
+                  </div>
+                  <div class="tags">
+                      <span class="tag">Portfolio</span>
+                      <span class="tag">Visual</span>
+                  </div>
+              </div>
+          </a>
+
+          <!-- Job 6 -->
+          <a class="job" href="#job6">
+              <div class="job-main">
+                  <div class="av">S</div>
+                  <div>
+                      <div class="co">
+                          Studio Rupa
+                      </div>
+                      <h3>
+                          Content Creator
+                      </h3>
+                      <div class="meta">
+                          Remote · Freelance · 1–3 tahun
+                      </div>
+                  </div>
+              </div>
+              <div class="job-mid">
+                  <div class="sal">
+                      Rp 7–12 jt / project
+                  </div>
+                  <div class="tags">
+                      <span class="tag">Content</span>
+                      <span class="tag">Portfolio</span>
+                  </div>
+              </div>
+          </a>
+      </div>
+  </div>
+</section>
+
+<section id="kategori">
+  <div class="wrap">
+    <h2>Kategori pekerjaan</h2>
+    <p class="lead">Mulai dari bidang yang paling dekat dengan targetmu.</p>
+    <div class="cats">
+      <button class="cat active" data-category-filter="">Semua</button>
+      <button class="cat" data-category-filter="IT">IT</button>
+      <button class="cat" data-category-filter="Operations">Operations</button>
+      <button class="cat" data-category-filter="Design">Design</button>
+      <button class="cat" data-category-filter="Content">Content</button>
+    </div>
+  </div>
+</section>
+
+<section id="cara-kerja">
+  <div class="wrap">
+    <h2>Cara kerja</h2>
+    <p class="lead">Alur dibuat singkat supaya kamu bisa fokus pada lowongan yang relevan.</p>
+    <div class="steps">
+      <div class="step"><span>01</span><div><h3>Cari</h3><p>Gunakan keyword, lokasi, profil, dan filter pengalaman untuk mempersempit hasil.</p></div></div>
+      <div class="step"><span>02</span><div><h3>Pahami</h3><p>Buka detail untuk melihat requirement dan alasan sebuah lowongan direkomendasikan.</p></div></div>
+      <div class="step"><span>03</span><div><h3>Lamar</h3><p>Unggah CV, periksa data, lalu kirim tanpa berpindah ke banyak halaman.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="manfaat">
+  <div class="wrap">
+    <h2>Dibuat untuk mengurangi waktu mencari</h2>
+    <div class="benefit-list">
+      <div><span>01</span><div><h3>Relevansi lebih dulu</h3><p>Lowongan dapat disaring berdasarkan target profil, bukan hanya daftar posisi yang sedang terbuka.</p></div></div>
+      <div><span>02</span><div><h3>Filter yang membantu</h3><p>Lokasi dan pengalaman menjadi filter utama karena keduanya sering dipakai saat mencari kerja.</p></div></div>
+      <div><span>03</span><div><h3>Alasan rekomendasi terlihat</h3><p>Pengguna dapat memahami hubungan antara target, skill, dan lowongan sebelum membuka banyak tab.</p></div></div>
+      <div><span>04</span><div><h3>Portfolio tetap diperhitungkan</h3><p>Untuk pekerjaan kreatif, kecocokan portfolio menjadi bagian dari konteks lowongan.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section><div class="wrap"><div class="cta">
+  <h2>Siap menemukan pekerjaan berikutnya?</h2>
+  <p>Mulai dari satu profil dan satu pencarian yang lebih terarah.</p>
+  <a class="btn btn-p btn-lg" href="#lowongan">Mulai cari lowongan</a>
+</div></div></section>
+
+<footer>
+  <div class="wrap">
+      <div class="fg">
+          <div class="footer-brand">
+              <div class="footer-brand-title">
+                  <img src="logo.png" alt="Logo Jalurkerja">
+                  <strong>Jalurkerja</strong>
+              </div>
+              <p>
+                  Platform pencarian kerja yang membantu pencari
+                  fokus pada lowongan yang relevan.
+              </p>
+          </div>
+          <div class="footer-column">
+              <h4>Pencari kerja</h4>
+              <a href="#lowongan">Lowongan</a>
+              <a href="#kategori">Kategori</a>
+              <a href="#cara-kerja">Cara kerja</a>
+          </div>
+          <div class="footer-column">
+              <h4>Perusahaan</h4>
+              <a href="#">Pasang lowongan</a>
+              <a href="#">Harga</a>
+          </div>
+          <div class="footer-column">
+              <h4>Bantuan</h4>
+              <a href="#">Pusat bantuan</a>
+              <a href="#">Kebijakan privasi</a>
+          </div>
+      </div>
+      <div class="copy">
+          © 2026 Jalurkerja. Semua hak dilindungi.
+      </div>
+  </div>
+</footer>
+
+<!-- Detail lowongan -->
+<div class="modal" id="job0"><a class="bd" href="#lowongan" aria-label="Tutup"></a><div class="dg"><div class="prog"><b class="on"></b><b></b><b></b><b></b></div><div class="co"><div class="av">D</div>DataKarya</div><h3>Business Analyst</h3><p>Lowongan ini relevan untuk fresh graduate yang menargetkan Business Analyst/Product Analyst.</p><div class="match-detail"><strong>91% cocok untuk Kevin</strong><span>Alasan: target posisi selaras dengan pengalaman academic projects dan kebutuhan belajar requirement.</span></div><div class="sum"><div><span>Lokasi</span><span>Semarang</span></div><div><span>Jenis</span><span>Penuh waktu</span></div><div><span>Gaji</span><span>Rp 8–13 jt / bulan</span></div></div><p class="modal-label">Persyaratan</p><ul><li>Fresh graduate atau pengalaman internship</li><li>Mampu memahami kebutuhan bisnis</li><li>Dasar SQL dan Excel</li></ul><div class="row"><a class="btn btn-s" href="#lowongan">Kembali</a><a class="btn btn-p" href="#lamar">Lamar sekarang</a></div></div></div>
+
+<div class="modal" id="job1"><a class="bd" href="#lowongan" aria-label="Tutup"></a><div class="dg"><div class="prog"><b class="on"></b><b></b><b></b><b></b></div><div class="co"><div class="av">N</div>Nusa Teknologi</div><h3>Product Analyst</h3><p>Menganalisis data produk dan perilaku pengguna untuk membantu pengambilan keputusan tim produk.</p><div class="match-detail"><strong>88% cocok untuk Kevin</strong><span>Alasan: keyword dan skill analisis mendekati target Product Analyst.</span></div><div class="sum"><div><span>Lokasi</span><span>Jakarta</span></div><div><span>Jenis</span><span>Penuh waktu</span></div><div><span>Gaji</span><span>Rp 10–16 jt / bulan</span></div></div><p class="modal-label">Persyaratan</p><ul><li>Pengalaman 1–3 tahun atau internship kuat</li><li>SQL dan data analysis</li><li>Mampu menyusun insight</li></ul><div class="row"><a class="btn btn-s" href="#lowongan">Kembali</a><a class="btn btn-p" href="#lamar">Lamar sekarang</a></div></div></div>
+
+<div class="modal" id="job2"><a class="bd" href="#lowongan" aria-label="Tutup"></a><div class="dg"><div class="prog"><b class="on"></b><b></b><b></b><b></b></div><div class="co"><div class="av">P</div>Proyek Nusantara</div><h3>Project Coordinator</h3><p>Mengoordinasikan timeline, komunikasi, dan dokumentasi proyek lintas tim.</p><div class="match-detail"><strong>86% cocok untuk Maya</strong><span>Alasan: pengalaman administrasi dan transferable skills dapat diterapkan pada koordinasi proyek.</span></div><div class="sum"><div><span>Lokasi</span><span>Bekasi</span></div><div><span>Jenis</span><span>Penuh waktu</span></div><div><span>Gaji</span><span>Rp 9–14 jt / bulan</span></div></div><p class="modal-label">Persyaratan</p><ul><li>Pengalaman 3–5 tahun</li><li>Terorganisir dan komunikatif</li><li>Terbiasa mengelola dokumentasi</li></ul><div class="row"><a class="btn btn-s" href="#lowongan">Kembali</a><a class="btn btn-p" href="#lamar">Lamar sekarang</a></div></div></div>
+
+<div class="modal" id="job3"><a class="bd" href="#lowongan" aria-label="Tutup"></a><div class="dg"><div class="prog"><b class="on"></b><b></b><b></b><b></b></div><div class="co"><div class="av">A</div>Arta Sejahtera</div><h3>Project Operations Associate</h3><p>Mendukung operasional proyek melalui reporting, koordinasi, dan perencanaan aktivitas.</p><div class="match-detail"><strong>82% cocok untuk Maya</strong><span>Alasan: filter pengalaman dan transferable skills mengarah ke peran koordinasi operasional.</span></div><div class="sum"><div><span>Lokasi</span><span>Jakarta</span></div><div><span>Jenis</span><span>Penuh waktu</span></div><div><span>Gaji</span><span>Rp 8–12 jt / bulan</span></div></div><p class="modal-label">Persyaratan</p><ul><li>Pengalaman administrasi atau operasional 3+ tahun</li><li>Terbiasa membuat laporan</li><li>Mampu berkoordinasi dengan beberapa pihak</li></ul><div class="row"><a class="btn btn-s" href="#lowongan">Kembali</a><a class="btn btn-p" href="#lamar">Lamar sekarang</a></div></div></div>
+
+<div class="modal" id="job4"><a class="bd" href="#lowongan" aria-label="Tutup"></a><div class="dg"><div class="prog"><b class="on"></b><b></b><b></b><b></b></div><div class="co"><div class="av">K</div>Kreasi Visual</div><h3>Visual Designer</h3><p>Merancang aset visual digital untuk kampanye dan kebutuhan produk.</p><div class="match-detail"><strong>94% cocok untuk Arif</strong><span>Alasan: pengalaman fotografi, latar DKV, dan portfolio menjadi konteks utama rekomendasi.</span></div><div class="sum"><div><span>Lokasi</span><span>Bandung</span></div><div><span>Jenis</span><span>Penuh waktu</span></div><div><span>Gaji</span><span>Rp 8–13 jt / bulan</span></div></div><p class="modal-label">Persyaratan</p><ul><li>Portfolio visual yang dapat ditinjau</li><li>Pengalaman 1–3 tahun</li><li>Mampu mengembangkan konsep visual</li></ul><div class="row"><a class="btn btn-s" href="#lowongan">Kembali</a><a class="btn btn-p" href="#lamar">Lamar sekarang</a></div></div></div>
+
+<div class="modal" id="job5"><a class="bd" href="#lowongan" aria-label="Tutup"></a><div class="dg"><div class="prog"><b class="on"></b><b></b><b></b><b></b></div><div class="co"><div class="av">S</div>Studio Rupa</div><h3>Content Creator</h3><p>Membuat konten visual dan sosial media dengan ruang untuk menunjukkan portfolio.</p><div class="match-detail"><strong>90% cocok untuk Arif</strong><span>Alasan: pengalaman freelance photography dan portfolio visual mendukung kebutuhan posisi.</span></div><div class="sum"><div><span>Lokasi</span><span>Remote</span></div><div><span>Jenis</span><span>Freelance</span></div><div><span>Gaji</span><span>Rp 7–12 jt / project</span></div></div><p class="modal-label">Persyaratan</p><ul><li>Portfolio content atau photography</li><li>Pengalaman 1–3 tahun</li><li>Mampu membuat konsep konten</li></ul><div class="row"><a class="btn btn-s" href="#lowongan">Kembali</a><a class="btn btn-p" href="#lamar">Lamar sekarang</a></div></div></div>
+
+<!-- Alur lamaran -->
+<div class="modal" id="lamar"><a class="bd" href="#lowongan" aria-label="Tutup"></a><div class="dg"><div class="prog"><b class="on"></b><b class="on"></b><b></b><b></b></div><h3>Unggah CV</h3><p>Lengkapi data berikut untuk melamar.</p><form action="#konfirmasi"><label class="f" for="nm">Nama lengkap</label><input type="text" id="nm" autocomplete="name" required><label class="f" for="cv">CV atau profil (PDF, DOC, DOCX)</label><input type="file" id="cv" accept=".pdf,.doc,.docx" required><div class="row"><a class="btn btn-s" href="#lowongan">Batal</a><button class="btn btn-p" type="submit">Lanjut</button></div></form></div></div>
+<div class="modal" id="konfirmasi"><a class="bd" href="#lowongan" aria-label="Tutup"></a><div class="dg"><div class="prog"><b class="on"></b><b class="on"></b><b class="on"></b><b></b></div><h3>Konfirmasi lamaran</h3><p>Periksa kembali data kamu sebelum mengirim.</p><div class="row"><a class="btn btn-s" href="#lamar">Ubah data</a><a class="btn btn-p" href="#berhasil">Kirim lamaran</a></div></div></div>
+<div class="modal" id="berhasil"><a class="bd" href="#lowongan" aria-label="Tutup"></a><div class="dg"><div class="prog"><b class="on"></b><b class="on"></b><b class="on"></b><b class="on"></b></div><div class="ok" aria-hidden="true">✓</div><h3>Lamaran terkirim</h3><p>Perusahaan akan menerima lamaranmu. Kamu dapat melanjutkan mencari lowongan lain.</p><div class="row"><a class="btn btn-p" href="#lowongan">Cari lowongan lain</a></div></div></div>
+
+</body>
+</html>
